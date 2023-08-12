@@ -111,6 +111,9 @@ function App()
           deleteTask={deleteTask}
         />
       </div>
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Thanapoom Dechalamai. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
